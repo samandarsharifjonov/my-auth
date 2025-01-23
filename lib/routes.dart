@@ -11,10 +11,11 @@ class AppRoutes {
   static const registerPage = '/registerPage';
   static const resetPass = '/resetPass';
 
+
   static final Map<String, WidgetBuilder> routes = {
-    homePage: (_) => const HomePage(),
-    loginPage: (_) => const LoginPage(),
-    registerPage: (_) => const RegisterPage(),
-    resetPass: (_) => const ResetPassword(),
+    homePage: (_) => const HomePage(), // home page
+    loginPage: (_) => const LoginPage(), // login
+    registerPage: (_) => const RegisterPage(), // register page
+    resetPass: (_) => const ResetPassword(), // reset password
   };
 }
